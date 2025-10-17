@@ -13,7 +13,7 @@ paru/yay -S tofi trmt kitty
 ```
 cd ~/
 git clone https://github.com/lucysixsixsix/niri-rice
-cd niri-rice
+cd niri-rice/.config
 
 cp -r .niri ~/.config/
 cp -r .waybar ~/.config/
