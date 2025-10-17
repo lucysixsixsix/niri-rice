@@ -17,6 +17,7 @@ cd niri-rice
 
 cp -r .niri ~/.config/
 cp -r .waybar ~/.config/
+cp -r .kitty ~/.config/
 cp -r walls ~/.config/
 ```
 ### done!
