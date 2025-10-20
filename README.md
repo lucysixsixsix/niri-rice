@@ -6,8 +6,8 @@ See [niri's](https://github.com/YaLTeR/niri) github page!
 
 ### required packages for arch (fedora, nix or deb-based package names may vary)
 ```
-sudo pacman -S niri waybar
-paru/yay -S tofi trmt kitty
+sudo pacman -S niri waybar kitty
+paru/yay -S tofi trmt
 ```
 
 ```
