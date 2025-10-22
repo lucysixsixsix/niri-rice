@@ -19,5 +19,10 @@ git clone https://github.com/lucysixsixsix/niri-rice
 cd niri-rice/config
 
 cp -r helix kitty niri tofi trmt walls waybar ~/.config/
+
+cd ..
+
+sudo cp -r GTK_THEME /usr/share/themes
+sudo cp -r GTK_ICONS /usr/share/icons
 ```
 ### done!
