@@ -8,16 +8,16 @@ See [niri's](https://github.com/YaLTeR/niri) github page!
 ```
 sudo pacman -S niri waybar kitty
 paru/yay -S tofi trmt
+
+// extra package
+sudo pacman -S helix
 ```
 
 ```
 cd ~/
 git clone https://github.com/lucysixsixsix/niri-rice
-cd niri-rice/.config
+cd niri-rice/config
 
-cp -r .niri ~/.config/
-cp -r .waybar ~/.config/
-cp -r .kitty ~/.config/
-cp -r walls ~/.config/
+cp -r .niri .waybar .kitty .tofi .trmt  walls ~/.config/
 ```
 ### done!
