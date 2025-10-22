@@ -22,6 +22,8 @@ input {
     touchpad {
         tap
         natural-scroll
+		accel-profile "flat"
+		accel-speed 0.4
     }
 
     mouse {
