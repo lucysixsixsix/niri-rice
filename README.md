@@ -3,9 +3,9 @@ repositories: [niri](https://github.com/YaLTeR/niri),[waybar](https://github.com
 
 #
 ### TO ADD:
-### fastfetch config
+### nothing
 
-### ~/.config/kitty/nord.conf
+### yayy
 #
 ### how to install?
 
