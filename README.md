@@ -6,7 +6,7 @@ See [niri's](https://github.com/YaLTeR/niri) github page!
 
 ### required packages for arch (fedora, nix or deb-based package names may vary)
 ```
-sudo pacman -S niri waybar kitty
+sudo pacman -S niri waybar kitty nwg-look
 paru/yay -S tofi trmt
 
 // extra package (vim-like text editor, but better imho)
