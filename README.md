@@ -18,6 +18,6 @@ cd ~/
 git clone https://github.com/lucysixsixsix/niri-rice
 cd niri-rice/config
 
-cp -r .niri .waybar .kitty .tofi .trmt  walls ~/.config/
+cp -r .niri .waybar .kitty .tofi .trmt .helix  walls ~/.config/
 ```
 ### done!
