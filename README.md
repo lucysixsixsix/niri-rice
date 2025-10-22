@@ -9,7 +9,7 @@ See [niri's](https://github.com/YaLTeR/niri) github page!
 sudo pacman -S niri waybar kitty
 paru/yay -S tofi trmt
 
-// extra package
+// extra package (vim-like text editor, but better imho)
 sudo pacman -S helix
 ```
 
