@@ -5,7 +5,7 @@ repositories: [niri](https://github.com/YaLTeR/niri),[waybar](https://github.com
 ### TO ADD:
 ### fastfetch config
 
-### zsh theme
+### ~/.config/kitty/nord.conf
 #
 ### how to install?
 
