@@ -1,6 +1,5 @@
 # my niri rice
-See [niri's](https://github.com/YaLTeR/niri) github page!
-
+repositories: [niri](https://github.com/YaLTeR/niri),[waybar](https://github.com/Alexays/Waybar),[trmt](https://github.com/cenonym/trmt),[tofi](https://github.com/philj56/tofi),[helix](https://helix-editor.com/)
 
 ### how to install?
 
