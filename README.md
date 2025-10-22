@@ -20,9 +20,10 @@ cd niri-rice/config
 
 cp -r helix kitty niri tofi trmt walls waybar ~/.config/
 
-cd ..
-
+cd ../gtk-themes/theme
 sudo cp -r GTK_THEME /usr/share/themes
+
+cd ../gtk-themes/icons
 sudo cp -r GTK_ICONS /usr/share/icons
 ```
 ### done!
