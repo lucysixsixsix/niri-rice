@@ -1,6 +1,9 @@
 # my niri rice
 repositories: [niri](https://github.com/YaLTeR/niri),[waybar](https://github.com/Alexays/Waybar),[trmt](https://github.com/cenonym/trmt),[tofi](https://github.com/philj56/tofi),[helix](https://helix-editor.com/),[swww](https://github.com/LGFae/swww),[swaylock](https://github.com/swaywm/swaylock),[fastfetch](https://github.com/fastfetch-cli/fastfetch),[mako](https://github.com/emersion/mako)
 
+# Preview
+![alt text](https://cdn.discordapp.com/attachments/872262953108402180/1430909100883185735/image.png?ex=68fb7d72&is=68fa2bf2&hm=f12a3b5b6c180705cf9bbbb06f4f616df110655eac616b82a8f4b4b110fca95f& "👀")
+#
 ### how to install?
 
 ### required packages for arch (fedora, nix or deb-based package names may vary)
