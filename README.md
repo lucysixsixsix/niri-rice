@@ -33,6 +33,6 @@ sudo visudo (press 'i' to start typing)
 find the line that begins with Defaults, it might be Defaults env_reset or a similar line (Example: Defaults env_reset,pwfeedback)
 add ,pwfeedback to the end of that line, or add a new line with just Defaults pwfeedback
 
-save (press escape, then ':' and type wq)
+save (press escape, press ':' and type wq)
 ```
 ### done!
