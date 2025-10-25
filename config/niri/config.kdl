@@ -22,8 +22,6 @@ input {
     touchpad {
         tap
         natural-scroll
-		accel-profile "flat"
-		accel-speed 0.4
     }
 
     mouse {
@@ -36,6 +34,7 @@ input {
 
 output "DP-1" {
     mode "1920x1080@165.003"
+    //mode "1024x768@119.989"
 }
 
 layer-rule {
@@ -76,10 +75,8 @@ layout {
 
 spawn-at-startup "waybar"
 spawn-at-startup "swww-daemon"
-spawn-at-startup "$HOME/.config/walls/toggle-walls.sh"
 spawn-at-startup "vesktop"
 spawn-at-startup "/usr/lib/chromium/chromium"
-spawn-at-startup "/usr/bin/Telegram"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "gammastep"
 
@@ -111,7 +108,7 @@ window-rule {
 window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
-	open-maximized true
+    open-maximized true
 }
 
 window-rule {
@@ -182,10 +179,10 @@ binds {
    // Mod+Ctrl+Home { move-column-to-first; }
    // Mod+Ctrl+End  { move-column-to-last; }
 
-    //Mod+Shift+Left  { focus-monitor-left; }
+    Mod+Left  { focus-monitor-left; }
     //Mod+Shift+Down  { focus-monitor-down; }
     //Mod+Shift+Up    { focus-monitor-up; }
-    //Mod+Shift+Right { focus-monitor-right; }
+    Mod+Right { focus-monitor-right; }
     //Mod+Shift+H     { focus-monitor-left; }
     //Mod+Shift+J     { focus-monitor-down; }
     //Mod+Shift+K     { focus-monitor-up; }
@@ -201,15 +198,16 @@ binds {
     //Mod+Shift+Ctrl+L     { move-column-to-monitor-right; }
 
     // Alternatively, there are commands to move just a single window:
-    // Mod+Shift+Ctrl+Left  { move-window-to-monitor-left; }
+     Mod+Shift+Left  { move-window-to-monitor-left; }
+     Mod+Shift+Right { move-window-to-monitor-right; }
     // ...
 
     // And you can also move a whole workspace to another monitor:
     // Mod+Shift+Ctrl+Left  { move-workspace-to-monitor-left; }
     // ...
 
-    Mod+Page_Down      { focus-workspace-down; }
-    Mod+Page_Up        { focus-workspace-up; }
+    Mod+Down      { focus-workspace-down; }
+    Mod+Up        { focus-workspace-up; }
     //Mod+U              { focus-workspace-down; }
     //Mod+I              { focus-workspace-up; }
     Mod+Ctrl+Page_Down { move-column-to-workspace-down; }
