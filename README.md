@@ -4,7 +4,6 @@ repositories: [niri](https://github.com/YaLTeR/niri),[waybar](https://github.com
 # Preview
 ![alt text](https://raw.githubusercontent.com/lucysixsixsix/lucysixsixsix.github.io/refs/heads/main/images/rice.png "👀")
 #
-### how to install?
 
 ### required packages for arch (fedora, nix or deb-based package names may vary)
 ```
