@@ -25,8 +25,9 @@ sudo cp -r GTK_THEME /usr/share/themes
 cd ../gtk-themes/icons
 sudo cp -r GTK_ICONS /usr/share/icons
 ```
+# done!
 
-# optional
+### optional
 #### see password when prompted
 ```
 sudo visudo (press 'i' to start typing)
@@ -35,4 +36,3 @@ add ,pwfeedback to the end of that line, or add a new line with just Defaults pw
 
 save (press escape, press ':' and type wq)
 ```
-### done!
