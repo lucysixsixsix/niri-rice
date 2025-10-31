@@ -16,7 +16,7 @@ cd ~/
 git clone https://github.com/lucysixsixsix/niri-rice
 cd niri-rice/config
 
-cp -r helix kitty niri tofi trmt walls waybar fastfetch mako ~/.config/
+cp -r helix kitty niri tofi trmt walls waybar fastfetch mako gammastep ~/.config/
 
 cd ../gtk-themes/theme
 sudo cp -r GTK_THEME /usr/share/themes
