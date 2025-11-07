@@ -18,18 +18,7 @@ alias tree='exa -FT'
 alias rls='exa -FR'
 alias copy='xclip -se c'
 
-alias mic="pactl load-module module-loopback latency_msec=70"
-alias nomic="pactl unload-module module-loopback"
-
-alias einde="sudo pacman -Syyuu;systemctl poweroff"
-
-alias editroblox="vim ~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
-
 alias Desktop="cd ~/Desktop"
-
-alias turnbinds="cd Coding/C/surf/WORKING;sudo ./workingshift"
-alias autostrafe="cd Coding/C/surf/sheets;sudo ./verynew"
-alias hsw="cd Coding/C/surf/hswsheets;sudo ./hsw"
 
 alias nightlight="redshift -p -O 2000K"
 alias daylight="redshift -x"
