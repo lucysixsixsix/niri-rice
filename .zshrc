@@ -20,9 +20,6 @@ alias copy='xclip -se c'
 
 alias Desktop="cd ~/Desktop"
 
-alias nightlight="redshift -p -O 2000K"
-alias daylight="redshift -x"
-
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
